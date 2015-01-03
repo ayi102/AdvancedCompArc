@@ -1,0 +1,41 @@
+#!/bin/bash
+
+./predictor ../traces/SHORT-INT-1.cbp4.gz
+#mv 1_raw_stats.txt results1_SHORT-INT-1/
+#mv 2_top_ten_branches.txt results1_SHORT-INT-1/
+#mv 3_reduced_dead_profile.txt results1_SHORT-INT-1/
+#mv 4_branch_stats.txt results1_SHORT-INT-1/
+#mv 5_matches.txt results1_SHORT-INT-1/
+#mv 6_loops_with_patterns.txt results1_SHORT-INT-1/
+
+#./predictor ../traces/SHORT-INT-2.cbp4.gz
+#mv 1_raw_stats.txt results2_SHORT-INT-2/
+#mv 2_top_ten_branches.txt results2_SHORT-INT-2/
+#mv 3_reduced_profile.txt results2_SHORT-INT-2/
+#mv 4_branch_stats.txt results2_SHORT-INT-2/
+#mv 5_matches.txt results2_SHORT-INT-2/
+#mv 6_loops_with_patterns.txt results2_SHORT-INT-2/
+
+#./predictor ../traces/SHORT-INT-3.cbp4.gz
+#mv 1_raw_stats.txt results3_SHORT-INT-3/
+#mv 2_top_ten_branches.txt results3_SHORT-INT-3/
+#mv 3_reduced_profile.txt results3_SHORT-INT-3/
+#mv 4_branch_stats.txt results3_SHORT-INT-3/
+#mv 5_matches.txt results3_SHORT-INT-3/
+#mv 6_loops_with_patterns.txt results3_SHORT-INT-3/
+
+#./predictor ../traces/SHORT-INT-4.cbp4.gz
+#mv 1_raw_stats.txt results4_SHORT-INT-4/
+#mv 2_top_ten_branches.txt results4_SHORT-INT-4/
+#mv 3_reduced_profile.txt results4_SHORT-INT-4/
+#mv 4_branch_stats.txt results4_SHORT-INT-4/
+#mv 5_matches.txt results4_SHORT-INT-4/
+#mv 6_loops_with_patterns.txt results4_SHORT-INT-4/
+
+#./predictor ../traces/SHORT-INT-5.cbp4.gz
+#mv 1_raw_stats.txt results5_SHORT-INT-5/
+#mv 2_top_ten_branches.txt results5_SHORT-INT-5/
+#mv 3_reduced_profile.txt results5_SHORT-INT-5/
+#mv 4_branch_stats.txt results5_SHORT-INT-5/
+#mv 5_matches.txt results5_SHORT-INT-5/
+#mv 6_loops_with_patterns.txt results5_SHORT-INT-5/

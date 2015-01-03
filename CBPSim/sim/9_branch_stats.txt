@@ -1,0 +1,50 @@
+-----------------Total Branches------------------
+Total Branches                  : 730
+Total Unconditional Branches    : 80
+Total Conditional   Branches    : 424
+Total Direct Call   Branches    : 134
+Total Return        Branches    : 92
+--------------Total Branch Executions------------
+Total Branch Executions         : 4989008
+Total Unconditional Branch Exes : 349095
+Total Conditional   Branch Exes : 4184792
+Total Direct Call   Branch Exes : 227558
+Total Return        Branch Exes : 227563
+-----------------Branch Break Down---------------
+% Unconditional Branch Exes     : 6.997282827
+% Conditional   Branch Exes     : 83.88024232
+% Direct Call   Branch Exes     : 4.561187314
+% Return        Branch Exes     : 4.561287535
+-------------Dead Branch Break Down--------------
+Branches All Taken              : 397
+Branches All Not Takens         : 195
+# of Unonditional All Taken     : 80
+# of Conditional All Taken      : 91
+# of Direct Call All Taken      : 134
+# of Retrun Call All Taken      : 92
+# of Conditional All Not Takens : 195
+% All Taken Branches            : 54.38356164
+% All Not Takens Branches       : 26.71232877
+--------Dead Branch Execution Break Down---------
+# of Taken Executions           : 858826
+# of Not Taken Executions       : 1192957
+% of Dead Executions            : 41.12607156
+---------General Branch Break Down-----
+# of Dead           Branches    : 592
+# of Glacial        Branches    : 32
+# of Pot. Loop Branches         : 54
+# of Pot. Irregular Branches    : 52
+% of Dead Branches              : 81.09589041
+% of Glacial Branches           : 4.383561644
+% of Loop    Branches           : 7.397260274
+% of Irregular Branches         : 7.123287671
+% of Dead Executions            : 41.12607156
+% of Glacial Branch Execution   : 22.82650178
+% of Loop Executions            : 8.353744873
+% of Irregular Executions       : 27.69368179
+----------Call History Stats---------
+# of Full Call Histories        : 9
+-------------VERIFICATION-------------
+Total Branch Count Verified
+Per-Branch Count Verified
+Op Type Counts Verified

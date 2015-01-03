@@ -1,0 +1,39 @@
+DOWNLOAD:
+-----------------------------------------------------------------------------------------------------------------------------------------------
+To run the profiler, please download the CBP frame at:
+http://www.jilp.org/cbp2014/framework.html
+
+There are basic instructions for download on this site.
+
+Make sure to replace the main.cc in the sim folder with the main.cc program provided. Also, include the profiler.h file.
+
+NOTE:
+-----------------------------------------------------------------------------------------------------------------------------------------------
+The profiler is a C++ class located in profiler.h. An instance of the class is created in main.cc. The methods used in main.cc should remain
+in their current order. The profiler will generate many files that contain information on the trace that was run with the profiler. These files
+include:
+
+1_raw_stats.txt
+2_reduced_dead.txt
+3_reduced_glacial.txt
+4_dead.txt
+5_glacial.txt
+6_top_ten_branches.txt
+7_branch_targets.txt
+8_call_history.txt
+9_branch_stats.txt
+10_matches.txt
+11_loops.txt
+12_reduced_loops.txt
+13_rets_per_call_history.txt
+
+Some of these files are set to only print out the first hundred values of the history. You can change this HISTORY_SIZE.
+
+Also, there is some verification in the profiler. It tracks many of the counts to ensure everything is adding up. You can check it out
+under write_stats method.
+
+RUNNING THE PROFILER:
+-----------------------------------------------------------------------------------------------------------------------------------------------
+./predictor ../traces/SHORT-INT-1.cbp4.gz
+
+All the traces are located in the trace directory.
